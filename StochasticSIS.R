@@ -29,7 +29,7 @@ for (i in 1:m0){
   K[i]=sum(A[i,])  ####Finds inital number of connections.
 }
   for (j in (m0+1):n){
-    for (i in sample(N)){
+    for (i in N){
       p[i]=K[i]/sum(K)
     }
     
